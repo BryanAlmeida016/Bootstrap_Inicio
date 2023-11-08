@@ -1,29 +1,36 @@
 body{
-    
+    background-color: rgb(42, 5, 53);
+    font-family: Agency FB;
 }
 
 .Sombra{
-    text-shadow: 4px 4px 10px rgb(101, 0, 129);
+    text-shadow: 6px 6px 12px rgb(69, 0, 88);
 }
 
-.container{
-    border-radius: 7%;
-    margin-top: 2%;
-    background-color: rgb(81, 52, 106);
-    padding-bottom: 3%;
+.Legenda{
+    color: white;
+    background-color: #d089ff;
+    text-shadow: 6px 6px 12px rgb(69, 0, 88);
+    font-size: 1.4em;
+    border-radius: 65%;
 }
 
-.container2{
-    border-radius: 7%;
-    margin-top: 2%;
-    background-color: rgb(129, 72, 150);
-    padding-bottom: 3%;
+.imgshadow{
+    box-shadow: 10px 6px 20px 6px #c9a7e6;
+}
+
+.imgicone{
+    width: 20%;
 }
 
 h2{
     text-align: center;
     font-family: Agency FB;
     font-weight: bold;
+    color: black;
+    font-size: 2.5em;
+    margin-top: 2%;
+    text-shadow: 5px 5px 12px rgb(148, 148, 148);
 }
 
 .letrabonita{
@@ -35,6 +42,12 @@ h2{
     height: 5%;
 }
 
+.rowcard{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
 p{
     color: rgb(255, 255, 255);
     text-align: center;
@@ -43,12 +56,36 @@ p{
     padding-left: 3%;
     padding-right: 3%;
     font-family: Agency FB;
-    font-size: 1.3em;
+    font-size: 1.5em;
     margin: auto;
 }
 
 footer{
-    background-color: rgb(76, 0, 104);
-    width: 100%;
+    background-color: rgb(21, 1, 29);
+    font-size: 1.3em;
+    text-align: center;
+    padding: 1%;
+}
+
+section{
+    border-radius: 30px;
+    background-color: rgb(99, 22, 134);
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+}
+
+/*Separando os Arcos*/
+.espaçobaixo{
+    padding-bottom: 2%;
+}
+
+.espacocard{
+    margin-bottom: 3%;
+}
+
+.rowcard{
+    display: flex;
+    flex-flow: row wrap;
     text-align: center;
 }
