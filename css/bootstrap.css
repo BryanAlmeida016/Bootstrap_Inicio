@@ -3221,8 +3221,8 @@ textarea.form-control-lg {
 }
 
 .btn-outline-success {
-  --bs-btn-color: #1e1157;
-  --bs-btn-border-color: #1e1157;
+  --bs-btn-color: #8000bb;
+  --bs-btn-border-color: #8000bb;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #1e1157;
   --bs-btn-hover-border-color: #1e1157;
